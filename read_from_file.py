@@ -20,5 +20,5 @@ for line in ifile :
 	demand += [float(ln[2].strip())]
 ifile.close()
 
-return price, supply, demand
-#print supply
+#return price, supply, demand
+print price, supply, demand
